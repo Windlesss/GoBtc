@@ -1,0 +1,54 @@
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-size:14px;
+/*    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";*/
+}
+
+/*
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}*/
+
+#app {
+    margin: 0;
+    padding: 0;
+}
+
+.el-row {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.el-menu {
+    border-right: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.MainBox {
+    margin: 15px;
+    padding: 15px;
+    height: calc(100% - 60px);
+}
+.router-link-active {
+    color: red !important;
+}
+.el-menu-item.is-active {
+    background-color: #ECF5FF;
+}
